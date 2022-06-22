@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Joan', serif;
+  
+    
+}
+.page{
+    background-image: url(../freshest/veggie.jpg);
+}
+
+
+.navbar{
+    width: 100%;
+    color: white;
+    height: 70px;
+    border-bottom: 3px solid white;
+}
+.navbar .container{
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+     
+}
+nav{
+    display: flex;
+}
+nav ul{
+    display: flex;
+    margin-right: 10px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0px 10px;
+} 
+.frontpage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+
+}
+.front{
+    font-size: 60px;
+    color: white;
+    text-decoration: underline 6px solid white;
+}
+.word{
+    font-size: 30px;
+    color:white;
+}
+.first{
+    display: flex;
+    width: 1000px;
+    height: 250px;
+    color: white;
+    margin: 5px;
+
+}
+.head1{
+font-size: 40px;
+}
+.drpep{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.second{
+    display: flex;
+    width: 1000px;
+    height: 250px;
+    color: white;
+    margin: 5px;
+
+}
+.head2{
+    font-size: 40px;
+}
+.pepsi{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.third{
+    display: flex;
+    width: 1000px;
+    height: 250px;
+    color: white;
+    margin: 5px;
+
+}
+.head3{
+    font-size: 40px;
+}
+.coke{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
